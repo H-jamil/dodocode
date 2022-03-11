@@ -1,0 +1,60 @@
+algorithms/OptimalDataTransfer.java:104:			int ppLevel = Integer.valueOf(args[12]);
+algorithms/OptimalDataTransfer.java:109:			testing.testChameleon(ppLevel, fractionBDP, ccLevel, numActiveCores, governor);
+algorithms/OptimalDataTransfer.java:113:			int ppLevel = Integer.valueOf(args[12]);
+algorithms/OptimalDataTransfer.java:118:			int pLevel = Integer.valueOf(args[17);
+algorithms/OptimalDataTransfer.java:119:			testing.testChameleonWithParallelism(ppLevel, fractionBDP, ccLevel, numActiveCores, governor, pLevel);
+algorithms/OptimalDataTransfer.java:123:			int ppLevel = Integer.valueOf(args[12]);
+algorithms/OptimalDataTransfer.java:124:			int pLevel = Integer.valueOf(args[13]);
+algorithms/OptimalDataTransfer.java:128:			testing.testLab(ppLevel, pLevel, ccLevel, numActiveCores, frequency);
+algorithms/TestingAlgorithms.java:61:	public void testChameleon(int ppLevel, double fractionBDP, int ccLevel, int numActiveCores, String governor) throws InterruptedException {
+algorithms/TestingAlgorithms.java:75:			transfers[i] = new Transfer(datasets[i], ppLevel, 1, ccLevel, httpServer, remainingDatasets);
+algorithms/TestingAlgorithms.java:84:							   transfers[i].getPPLevel() + ", " + transfers[i].getPLevel() + ", " +
+algorithms/TestingAlgorithms.java:128:	logger.logResults(totSize, avgFileSize, ppLevel, fractionBDP, ccLevel, governor, numActiveCores, startTime, endTime, energyThread.getTotEnergy());
+algorithms/TestingAlgorithms.java:129://		logger.logResults(totSize, avgFileSize, ppLevel, fractionBDP, ccLevel, governor, numActiveCores,
+algorithms/TestingAlgorithms.java:142:	public void testLab(int ppLevel, int pLevel, int ccLevel, int numActiveCores, int frequency) throws InterruptedException {
+algorithms/TestingAlgorithms.java:148:			transfers[i] = new Transfer(datasets[i], ppLevel, pLevel, ccLevel, httpServer, remainingDatasets);
+algorithms/TestingAlgorithms.java:155:							   transfers[i].getPPLevel() + ", " + transfers[i].getPLevel() + ", " +
+algorithms/IsmailAlgorithms.java:53:		int[] ppLevels = new int[datasets.length];
+algorithms/IsmailAlgorithms.java:54:		int[] pLevels = new int[datasets.length];
+algorithms/IsmailAlgorithms.java:63:			ppLevels[i] = (int) Math.min(100, Math.ceil(link.getBDP() / avgFileSize));
+algorithms/IsmailAlgorithms.java:64:			pLevels[i] = (int) Math.min(Math.ceil(link.getBDP() / TCPBuf), Math.ceil(avgFileSize / TCPBuf));
+algorithms/IsmailAlgorithms.java:93:			transfers[i] = new Transfer(datasets[i], ppLevels[i], pLevels[i], ccLevels[i], httpServer, remainingDatasets);
+algorithms/IsmailAlgorithms.java:132:							   transfers[i].getPPLevel() + ", " + transfers[i].getPLevel() + ", " +
+algorithms/IsmailAlgorithms.java:199:							   transfers[i].getPPLevel() + ", " + transfers[i].getPLevel() + ", " +
+algorithms/IsmailAlgorithms.java:305:							   transfers[i].getPPLevel() + ", " + transfers[i].getPLevel() + ", " +
+algorithms/LuigiAlgorithms.java:90:			int ppLevel = (int) Math.min(100, Math.ceil(link.getBDP() / avgFileSize));
+algorithms/LuigiAlgorithms.java:91:			int pLevel = 1;
+algorithms/LuigiAlgorithms.java:93:			transfers[i] = new Transfer(datasets[i], ppLevel, pLevel, ccLevel, httpServer, remainingDatasets);
+algorithms/LuigiAlgorithms.java:216:							   transfers[i].getPPLevel() + ", " + transfers[i].getPLevel() + ", " +
+algorithms/LuigiAlgorithms.java:368:							   transfers[i].getPPLevel() + ", " + transfers[i].getPLevel() + ", " +
+algorithms/LuigiAlgorithms.java:536:							   transfers[i].getPPLevel() + ", " + transfers[i].getPLevel() + ", " +
+algorithms/LuigiAlgorithms.java:670://		htmlSet.ppLevel.set(48);
+algorithms/LuigiAlgorithms.java:671://		htmlSet.pLevel.set(1);
+algorithms/LuigiAlgorithms.java:674://		imageSet.ppLevel.set(2);
+algorithms/LuigiAlgorithms.java:675://		imageSet.pLevel.set(1);
+algorithms/LuigiAlgorithms.java:678://		videoSet.ppLevel.set(1);
+algorithms/LuigiAlgorithms.java:679://		videoSet.pLevel.set(1);
+data/Logger.java:41:	public void logResults(long totSize, double avgFileSize, int ccLevel, double fractionBDP, int ppLevel,
+data/Logger.java:71:							Integer.toString(ccLevel), Double.toString(fractionBDP), Integer.toString(ppLevel),
+network/Transfer.java:17:	private int ppLevel;
+network/Transfer.java:18:	private int pLevel;
+network/Transfer.java:29:	public Transfer(Dataset dataset, int ppLevel, int pLevel, int ccLevel, HttpHost httpServer, CountDownLatch remainingDatasets) {
+network/Transfer.java:31:		this.ppLevel = ppLevel;
+network/Transfer.java:32:		this.pLevel = pLevel;
+network/Transfer.java:43:	public int getPPLevel() {
+network/Transfer.java:44:		return ppLevel;
+network/Transfer.java:47:	public int getPLevel() {
+network/Transfer.java:48:		return pLevel;
+network/Transfer.java:132:				+ "(pp, p, cc) = (" + ppLevel + ", " + pLevel + ", " + ccLevel + ")" );
+network/FileDownload.java:36:		httpClients = new CloseableHttpPipeliningClient[transfer.getPLevel()];
+network/FileDownload.java:37:		for (int i = 0; i < transfer.getPLevel(); i++) {
+network/FileDownload.java:63:			// Get ppLevel files from list, where pp = pipelining level
+network/FileDownload.java:66:				int ppLevel = transfer.getPPLevel();
+network/FileDownload.java:67:				fileList = transfer.getDataset().removeFile(ppLevel);
+network/FileDownload.java:83:			if (transfer.getPLevel() == 1) {
+network/FileDownload.java:147:				HttpRequest[][] httpRequests = new HttpRequest[transfer.getPLevel()][fileList.size()];
+network/FileDownload.java:150:					long chunkLength = Math.round( (double)f.getSize() / (double)transfer.getPLevel());
+network/FileDownload.java:152:					for (int j = 0; j < transfer.getPLevel(); j++) {
+network/FileDownload.java:164:				remainingRequests = new CountDownLatch(transfer.getPLevel());
+network/FileDownload.java:165:				for (int i = 0; i < transfer.getPLevel(); i++) {
+network/FileDownload.java:237:			// Signal that ppLevel files have been transferred
