@@ -77,9 +77,9 @@ for i in range(3):
           totalNumLogicalCores + ' ' + \
           governor
     print('Start transfer: Test CloudLab,  Iteration: ' + ", Dataset = " + dataset)
-    subprocess.run(cmd, shell=True)
+    #subprocess.run(cmd, shell=True)
     print('Finished transfer of: Test CloudLab,  Iteration: ' + ", Dataset = " + dataset)
-    time.sleep(10)
+    #time.sleep(10)
 
 
     #Luigi's EEMT

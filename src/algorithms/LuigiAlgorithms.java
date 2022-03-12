@@ -839,24 +839,32 @@ public class LuigiAlgorithms {
 			}
 			System.out.println();
 		}
-
+		System.out.println("####Luigi's Algorithm setDidAlgGetEndTime to true");
 		transfers[0].setDidAlgGetEndTime(true);
+		System.out.println("####Luigi's Algorithm finished downloading");
+		//transfers[0].setDidAlgGetEndTime(true);
 
 		// All files have been received
 		long endTime = System.currentTimeMillis();
-
-		// Stop background threads
-		energyThread.finish();
-		loadThread.finish();
-		energyThread.join();
-		loadThread.join();
-
-		System.out.println("Luigi's EEMax Throughput: Transfer took " + ((endTime - startTime) / 1000.0) + " seconds");
+                System.out.println("Luigi's EEMax Throughput: Transfer took " + ((endTime - startTime) / 1000.0) + " seconds");
 		System.out.println("Luigi's EEMax Throughput: Total energy used " + energyThread.getTotEnergy() + " J");
 
 		// Log results
 		//logger.logResults(startTime, endTime, energyThread.getTotEnergy());
 		logger.logResults(startTime, endTime, energyThread.getTotEnergy(),this.maxChannels, this.TCPBuf);
+		// Stop background threads
+		
+		energyThread.finish();
+		loadThread.finish();
+		energyThread.join();
+		loadThread.join();
+
+		//System.out.println("Luigi's EEMax Throughput: Transfer took " + ((endTime - startTime) / 1000.0) + " seconds");
+		//System.out.println("Luigi's EEMax Throughput: Total energy used " + energyThread.getTotEnergy() + " J");
+
+		// Log results
+		//logger.logResults(startTime, endTime, energyThread.getTotEnergy());
+		//logger.logResults(startTime, endTime, energyThread.getTotEnergy(),this.maxChannels, this.TCPBuf);
 
 		System.exit(0);
 	}
