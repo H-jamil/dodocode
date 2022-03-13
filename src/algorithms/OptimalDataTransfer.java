@@ -17,7 +17,7 @@ public class OptimalDataTransfer {
 	}
 
 	public static void main(String[] args) throws InterruptedException {
-		
+
 
 		System.out.println("Preparing transfer...");
 
@@ -108,7 +108,7 @@ public class OptimalDataTransfer {
 			System.out.println("*********OPTIMAL_DATA_TRANSFER: VIDEO DATA SIZE = " + videoSize + "_MB, IMAGE COUNT = " + imageCount );
 		}
 		Dataset[] datasets = listDatasets.toArray(new Dataset[listDatasets.size()]);
-		
+
 		HttpHost httpServer = new HttpHost(serverIP, port);
 		Link link = new Link(bandwidth, rtt);
 
@@ -187,7 +187,7 @@ public class OptimalDataTransfer {
 			//minEnergy(int numCores, int numActiveCores, boolean hyperThreading, String governor)
 			luigi.minEnergy(numCores,numActiveCores, hyperThreading, governor);
 			//luigi.minEnergy(numActiveCores);
-			
+
 		}
 		else if (algName.equals("luigiMinEnergy_wiscCpu")) {
 			Logger logger = new Logger(outputLog, testBedName, instThroughputFileName, algName, htmlCount, htmlSize, imageCount, imageSize, videoCount, videoSize);
@@ -512,7 +512,59 @@ public class OptimalDataTransfer {
 			DecisionTreeAlgorithms testingDecisionTree = new DecisionTreeAlgorithms(testBedName, datasets, TCPBuf, httpServer, link, maxChannels, algInterval, initAlgInterval, logger, decisionTreeHashTableFileName, decisionTreeHashTableSize, governor, totalNumPhysicalCores, totalNumLogicalCores);
 			testingDecisionTree.testDecisionTree(serverIP);
 		}
-		else if (algName.equals("testDecisionTree_wisc")) {
+				/*modification for decision
+		tree
+		 */
+		else if (algName.equals("testDecisionTreeEnergy")) {
+			/*
+			* 13 SHARED PARAMETERS (0 - 12)
+			* 0. Testbed: name of testbed either Chameleon or CloudLab
+		 	* 1. algName: name of algorithm
+		 	* 2. htmlCount: how many files from html dataset
+		 	* 3. imageCount: how many files from image dataset
+		 	* 4. videoCount: how many files from video dataset
+		 	* 5. serverIP
+		 	* 6. port
+		 	* 7. bandwidth: in Mbps
+		 	* 8. RTT: in ms
+		 	* 9. TCPMaxBuf: in MB
+		 	* 10. Max Channels
+		 	* 11 Alg Interval
+		 	* 12. outputLog --> after completing transfer (Writes the Average Throughput)
+		 	******************************************************************************
+		 	* PARAMETERS SPECIFIC TO TEST DECISION TREE (13 -
+		 	* 13. Initial Alg Interval - 1st alg interval (sampling) in seconds. Used for inittial parameters
+		 	* 14. Name of Decision Tree Instantaneous Output Log File - Written instantaneously to to file at regular intervals
+		 	* 15. DecisionTreeHashTable FileName and Path
+		 	* 16. DecisionTreeHashTable Size: Different for Testbed, datatype combination
+		 	* 17. totalNumPhysicalCores
+		 	* 18. totalNumLogicalCores
+		 	* 19. governor
+		 	* Note Dataset.getName - gets the dataset name: html, image or video
+		 	* HTML_Count, Image_count and video_count passed into logger
+		 	* just pass in the dataset name: html, image or video to see which count to log
+		 	* does the count change in the logger
+			*/
+			int initAlgInterval = Integer.valueOf(args[13]);
+			System.out.println("**** testDecisionTreeEnergy: initAlgInterval (sec): ARG[13] = " + initAlgInterval + " *******");
+			String decisionTreeInstOutputFile = args[14];
+			System.out.println("**** testDecisionTreeEnergy: decisionTreeInstOutputFile: ARG[14] = " + decisionTreeInstOutputFile + " *******");
+			String decisionTreeHashTableFileName = args[15];
+			System.out.println("**** testDecisionTreeEnergy: decisionTreeHashTableFileName: ARG[15] = " + decisionTreeHashTableFileName + " *******");
+			int decisionTreeHashTableSize = Integer.valueOf(args[16]);
+			System.out.println("**** testDecisionTreeEnergy: decisionTreeHashTableSize: ARG[16] = " + decisionTreeHashTableSize + " *******");
+			int totalNumPhysicalCores = Integer.valueOf(args[17]);
+			System.out.println("**** testDecisionTreeEnergy: totalNumPhysicalCores: ARG[17] = " + totalNumPhysicalCores + " *******");
+			int totalNumLogicalCores = Integer.valueOf(args[18]);
+			System.out.println("**** testDecisionTreeEnergy: totalNumLogicalCores: ARG[18] = " + totalNumLogicalCores + " *******");
+			String governor = args[19];
+			System.out.println("**** testDecisionTreeEnergy: governor: ARG[19] = " + governor + " *******");
+
+
+			Logger logger = new Logger(outputLog, testBedName, decisionTreeInstOutputFile, algName, htmlCount, htmlSize, imageCount, imageSize, videoCount, videoSize);
+			DecisionTreeAlgorithms testingDecisionTree = new DecisionTreeAlgorithms(testBedName, datasets, TCPBuf, httpServer, link, maxChannels, algInterval, initAlgInterval, logger, decisionTreeHashTableFileName, decisionTreeHashTableSize, governor, totalNumPhysicalCores, totalNumLogicalCores);
+			testingDecisionTree.testDecisionTreeEnergy(serverIP);
+		} else if (algName.equals("testDecisionTree_wisc")) {
 			/*
 			* 13 SHARED PARAMETERS (0 - 12)
 			* 0. Testbed: name of testbed either Chameleon or CloudLab
@@ -816,7 +868,7 @@ public class OptimalDataTransfer {
 			//System.out.println("The Frequency = " + args[argCounter]);
 			int frequency = Integer.valueOf(args[argCounter++]);
 			System.out.println("The Frequency = " + frequency);
-			
+
 			//testing.testChameleonWithParallelism(ppLevel, fractionBDP, ccLevel, numActiveCores, governor, pLevel, static_hla);
 			//	public void testChameleonWithParallelAndRttAndMixedSet(int[] ccLevels, int[] ppLevels, int[] pLevels, int numCores, int numActiveCores, boolean hyperthreading, String governor, String serverIP, double tcpBuf,  boolean static_hla)
 			//testing.testChameleonWithParallelAndRttAndMixedSet(ccLevels, ppLevels, pLevels, numLogicalCores, numActiveLogicalCores, hyperthreading, governor, serverIP, TCPBuf, static_hla, frequency);
