@@ -12,4 +12,4 @@ while [ "$i" -le "$number" ]; do
   i=$(($i + 1))
 done
 echo "Changing Directories: /users/jamilm/dodocode/"
-cd /users/jamilm/dodocode/s
+cd /users/jamilm/dodocode/
