@@ -38,7 +38,7 @@ with open(filename, 'a') as csvfile:
 
 cmd_prefix = 'sudo /usr/bin/curl http://128.105.145.219/'
 
-wget_cmd_prefix = 'wget -P /mnt/ramdisk http://128.105.145.219/'
+wget_cmd_prefix = 'sudo wget -P /mnt/ramdisk http://128.105.145.219/'
 
 rm_file_script_path = '/users/jamilm/dodocode/rmFilesFromRamDisk.sh'
 
@@ -246,15 +246,15 @@ for i in range(1):
     #downloadHtmlFiles_wget(1)
     #time.sleep(100)
     #rmFiles()
-    downloadImageFiles_curl(1)
-    time.sleep(100)
-    rmFiles()
+    #downloadImageFiles_curl(1)
+    #time.sleep(100)
+    #rmFiles()
     #downloadImageFiles_wget(1)
     #time.sleep(100)
     #rmFiles()
     downloadVideoFiles_curl(1)
     time.sleep(100)
     rmFiles()
-    #downloadVideoFiles_wget(1)
-    #time.sleep(100)
-    #rmFiles()
+    downloadVideoFiles_wget(1)
+    time.sleep(100)
+    rmFiles()
