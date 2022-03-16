@@ -35,6 +35,13 @@ public class DecisionTreeKeyObject {
         return result;
     }
 
+    @Override
+    public String toString(){
+        return "DecisionTreeKeyObject:" +
+                "Rtt: " + String.valueOf(this.rtt) +
+                "Throughput: " + String.valueOf(this.throughput);
+    }
+
 
     public double getRtt() {
         return rtt;

@@ -263,31 +263,32 @@ public class DecisionTreeAlgorithms {
 			BufferedReader br = new BufferedReader(new FileReader(path));
 			String line = "";
 			//for (int i = 0; i < numEntries; i++){
+			StringBuilder stringBuilder = new StringBuilder();
 			while (( line = br.readLine()) != null ) {
 				//String line = br.readLine();
 				if (line != null ) {
-					System.out.println("*********DataSet: READ LINE: " + line + " ************");
+					stringBuilder.append("*********DataSet: READ LINE: " + line + " ************")
 					//Ex. READ LINE: "chameleon-HTML,120.0,9000","(28, 12, 4, 2.2, 192.4236015)"
 					StringTokenizer st = new StringTokenizer(line, ",");
 
 					//double aRTT, int aTrhoughput
 
 					String TestBedAndDataType = st.nextToken().trim();
-					System.out.println("*** Testbed and DataType: " + TestBedAndDataType);
+					stringBuilder.append("*** Testbed and DataType: " + TestBedAndDataType);
 					TestBedAndDataType = TestBedAndDataType.substring(1);
-					System.out.println("*** New Testbed and DataType: " + TestBedAndDataType);
+					stringBuilder.append("*** New Testbed and DataType: " + TestBedAndDataType);
 					//trim removes all leading and trailing white spaces: example: "  45.0" or "45.0 " it should be "45.0" with no spaces before number orrr after
 					double rtt = Double.parseDouble(st.nextToken().trim());
-					System.out.println("*** rtt: " + rtt);
+					stringBuilder.append("*** rtt: " + rtt);
 					//String throughputString = st.nextToken("\"");
 					String throughputString = st.nextToken().trim();
-					System.out.println("***Throughput: " + throughputString + " String Length = " + throughputString.length());
+					stringBuilder.append("***Throughput: " + throughputString + " String Length = " + throughputString.length());
 					//Remove Quotation mark at the end of the throughput: 9000"
 					throughputString = throughputString.substring(0, (throughputString.length() -1));
-					System.out.println("***New Throughput: " + throughputString + " String Length = " + throughputString.length());
+					stringBuilder.append("***New Throughput: " + throughputString + " String Length = " + throughputString.length());
 					//Convert throughput to integer
 					int throughput = Integer.parseInt(throughputString);
-					System.out.println("***Throughput as int: " + throughput);
+					stringBuilder.append("***Throughput as int: " + throughput);
 
 					//Add RTT AND THROUGHPUT TO KEY OBJECT
 					DecisionTreeKeyObject keyObject = new DecisionTreeKeyObject(rtt,throughput);
@@ -295,44 +296,46 @@ public class DecisionTreeAlgorithms {
 					//PARSE HASH FILE PARAMETER VALUES: (CC_Level,  PP_level, #of cores, frequency and predicted throughput)
 					//"(28, 12, 4, 2.2, 192.4236015)"
 					String ccLevelString = st.nextToken().trim();
-					System.out.println("***CC_Level String = " + ccLevelString);
+					stringBuilder.append("***CC_Level String = " + ccLevelString);
 					//remove the comma and quotation mark, example: "(28
 					ccLevelString = ccLevelString.substring(2);
-					System.out.println("***New CC_Level String w/o Parenthesis and comma = " + ccLevelString);
+					stringBuilder.append("***New CC_Level String w/o Parenthesis and comma = " + ccLevelString);
 					int ccLevel = Integer.parseInt(ccLevelString);
-					System.out.println("*** CC_Level Int = " + ccLevel);
+					stringBuilder.append("*** CC_Level Int = " + ccLevel);
 					String ppLevelString = st.nextToken().trim();
-					System.out.println("*** PP_Level String = " + ppLevelString);
+					stringBuilder.append("*** PP_Level String = " + ppLevelString);
 					int ppLevel = Integer.parseInt(ppLevelString);
-					System.out.println("*** PP_Level Int = " + ppLevel);
+					stringBuilder.append("*** PP_Level Int = " + ppLevel);
 					String coreNumString = st.nextToken().trim();
-					System.out.println("***Core Num String = " + coreNumString);
+					stringBuilder.append("***Core Num String = " + coreNumString);
 					int coreNum= Integer.parseInt(coreNumString);
-					System.out.println("*** Core Num Int = " + coreNum);
+					stringBuilder.append("*** Core Num Int = " + coreNum);
 					//example freq = " 2.2", remove leading space with trim
 					String freqString = st.nextToken().trim();
-					System.out.println("*** freq String = " + freqString);
+					stringBuilder.append("*** freq String = " + freqString);
 					double freqDouble = Double.parseDouble(freqString);
-					System.out.println("*** frequency as a Double in GHz = " + freqDouble);
+					stringBuilder.append("*** frequency as a Double in GHz = " + freqDouble);
 					freqDouble = freqDouble * 1000000;
-					System.out.println("*** frequency as a Double in KHz = " + freqDouble);
+					stringBuilder.append("*** frequency as a Double in KHz = " + freqDouble);
 					int freq_KHz = (int)freqDouble;
-					System.out.println("*** frequency as an Integer in KHz = " + freq_KHz);
+					stringBuilder.append("*** frequency as an Integer in KHz = " + freq_KHz);
 					String predTputString = st.nextToken().trim();
-					System.out.println("*** predTput String = " + predTputString);
+					stringBuilder.append("*** predTput String = " + predTputString);
 					predTputString = predTputString.substring(0,(predTputString.length() - 2));
-					System.out.println("*** New predTput String = " + predTputString);
+					stringBuilder.append("*** New predTput String = " + predTputString);
 					double predTput_Mbps = Double.parseDouble(predTputString);
-					System.out.println("predTput double = " + predTput_Mbps);
+					stringBuilder.append("predTput double = " + predTput_Mbps);
 
 					//Add parameters to the parameter object
 					DecisionTreeParameterObject decision_tree_param_object = new DecisionTreeParameterObject(ccLevel, ppLevel, coreNum, freq_KHz, predTput_Mbps);
 
 					//Add to hashmap
-					System.out.println("Hashmap size before adding object = " + decisionTreeHashTable.size());
 					decisionTreeHashTable.put(keyObject,decision_tree_param_object);
-					System.out.println("Hashmap size after adding object = " + decisionTreeHashTable.size());
-
+					stringBuilder.append("Printing the Decision Tree HashMap obj");
+					stringBuilder.append("Key=" + keyObject.toString());
+					stringBuilder.append("Value=" + decision_tree_param_object.toString());
+					stringBuilder.append("Size="+ decisionTreeHashTable.size());
+					System.out.println(stringBuilder.toString());
 
 				}
 			}
@@ -1343,7 +1346,7 @@ public class DecisionTreeAlgorithms {
 	public DecisionTreeParameterObject getInitParams_chameleon(double rtt){
 		DecisionTreeParameterObject decisionTreeParameterObject = null;
 		try {
-			int initTput = 5000; //median value
+			int initTput = 500; //median value
 			double newRtt = 0.0;
 
 			if (rtt < 20) {
