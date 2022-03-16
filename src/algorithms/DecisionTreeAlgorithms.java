@@ -267,7 +267,7 @@ public class DecisionTreeAlgorithms {
 			while (( line = br.readLine()) != null ) {
 				//String line = br.readLine();
 				if (line != null ) {
-					stringBuilder.append("*********DataSet: READ LINE: " + line + " ************")
+					stringBuilder.append("*********DataSet: READ LINE: " + line + " ************");
 					//Ex. READ LINE: "chameleon-HTML,120.0,9000","(28, 12, 4, 2.2, 192.4236015)"
 					StringTokenizer st = new StringTokenizer(line, ",");
 
