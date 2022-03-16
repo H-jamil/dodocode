@@ -411,8 +411,9 @@ public class DecisionTreeAlgorithms {
 			rttInfo = rttThread.getRttInfo();
 			avgRtt = rttInfo.avgDeltaRtt;
 		}
+//		boolean flag=true;
 		//Get INIT PARAMETERS BASED ON RTT, TESTBED AND THE MEDIAN THROUGHPUT
-		theDecisionTreeParamObject = getInitDecisionTreeParams(avgRtt);
+		theDecisionTreeParamObject = getInitDecisionTreeParams(avgRtt,true);
 		if (theDecisionTreeParamObject != null ){
 			cc_level = theDecisionTreeParamObject.get_cc_level();
 			pp_level = theDecisionTreeParamObject.get_pp_level();
@@ -729,7 +730,7 @@ public class DecisionTreeAlgorithms {
 			avgRtt = rttInfo.avgDeltaRtt;
 		}
 		//Get INIT PARAMETERS BASED ON RTT, TESTBED AND THE MEDIAN THROUGHPUT
-		theDecisionTreeParamObject = getInitDecisionTreeParams(avgRtt);
+		theDecisionTreeParamObject = getInitDecisionTreeParams(avgRtt,false);
 		if (theDecisionTreeParamObject != null ){
 			cc_level = theDecisionTreeParamObject.get_cc_level();
 			pp_level = theDecisionTreeParamObject.get_pp_level();
@@ -1045,7 +1046,7 @@ public class DecisionTreeAlgorithms {
 			avgRtt = rttInfo.avgDeltaRtt;
 		}
 		//Get INIT PARAMETERS BASED ON RTT, TESTBED AND THE MEDIAN THROUGHPUT
-		theDecisionTreeParamObject = getInitDecisionTreeParams(avgRtt);
+		theDecisionTreeParamObject = getInitDecisionTreeParams(avgRtt, true);
 		if (theDecisionTreeParamObject != null ){
 			cc_level = theDecisionTreeParamObject.get_cc_level();
 			pp_level = theDecisionTreeParamObject.get_pp_level();
@@ -1296,12 +1297,12 @@ public class DecisionTreeAlgorithms {
 		//System.exit(0);
 	}
 
-	public DecisionTreeParameterObject getInitDecisionTreeParams(double rtt){
+	public DecisionTreeParameterObject getInitDecisionTreeParams(double rtt, boolean f){
 		DecisionTreeParameterObject decisionTreeParameterObject = null;
 		try {
 			switch (testBedName.toLowerCase()) {
 				case "chameleon":
-					decisionTreeParameterObject = getInitParams_chameleon(rtt);
+					decisionTreeParameterObject = getInitParams_chameleon(rtt,f);
 					break;
 				case "cloudlab":
 					decisionTreeParameterObject = getInitParams_cloudLab(rtt);
@@ -1340,10 +1341,17 @@ public class DecisionTreeAlgorithms {
 	}
 
 
-	public DecisionTreeParameterObject getInitParams_chameleon(double rtt){
+	public DecisionTreeParameterObject getInitParams_chameleon(double rtt, boolean fl){
 		DecisionTreeParameterObject decisionTreeParameterObject = null;
+		int initTput=0;
 		try {
-			int initTput = 5000; //median value
+			if (fl){
+				initTput = 5000; //median value
+			}
+			else{
+				initTput = 500; //median value
+			}
+
 			double newRtt = 0.0;
 
 			if (rtt < 20) {
