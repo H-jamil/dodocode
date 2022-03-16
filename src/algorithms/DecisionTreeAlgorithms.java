@@ -1343,7 +1343,7 @@ public class DecisionTreeAlgorithms {
 	public DecisionTreeParameterObject getInitParams_chameleon(double rtt){
 		DecisionTreeParameterObject decisionTreeParameterObject = null;
 		try {
-			int initTput = 5000; //median value
+			int initTput = 500; //median value
 			double newRtt = 0.0;
 
 			if (rtt < 20) {
