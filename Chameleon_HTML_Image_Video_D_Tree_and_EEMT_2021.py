@@ -76,10 +76,10 @@ for i in range(5):
           totalNumPhysicalCores + ' ' + \
           totalNumLogicalCores + ' ' + \
           governor
-    print('Start transfer: Test Chameleon,  Iteration: ' + ", Dataset = " + dataset)
-    subprocess.run(cmd, shell=True)
-    print('Finished transfer of: Test Chameleon,  Iteration: ' + ", Dataset = " + dataset)
-    time.sleep(10)
+    #print('Start transfer: Test Chameleon,  Iteration: ' + ", Dataset = " + dataset)
+    #subprocess.run(cmd, shell=True)
+    #print('Finished transfer of: Test Chameleon,  Iteration: ' + ", Dataset = " + dataset)
+    #time.sleep(10)
 
     #Luigi's EEMT
     cmd_prefix = 'sudo java -d64 -Xms15g -Xmx15g -XX:MaxDirectMemorySize=50G -cp .:lib/*:bin/'
@@ -130,9 +130,59 @@ for i in range(5):
           lowerBound + ' ' + \
           maxPP
 
-    print('Start transfer: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
+    #print('Start transfer: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
+    #subprocess.run(cmd, shell=True)
+    #print('Finished transfer of: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
+    #time.sleep(10)
+
+    #Decision Tree-Energy - HTML
+    cmd_prefix = 'sudo java -d64 -Xms15g -Xmx15g -XX:MaxDirectMemorySize=50G -cp .:lib/*:bin/'
+    testBedName = 'chameleon'
+    algorithm = 'testDecisionTreeEnergy'
+    # dataset = NUM HTML FILES, NUM IMAGE FILES, NUM VIDEO FILES
+    HTML_dataset = '20000 0 0'  # HTML: 20000 FILES, IMAGE:0 FILES, VIDEO: 0 Files
+    medium_dataset = '0 5000 0'  # HTML:0 FILES, IMAGE: 5000 FILES, VIDEO: 0 Files
+    large_dataset = '0 0 128'  # HTML:0 FILES, IMAGE:0 FILES, VIDEO: 128 Files
+    server_ip = '129.114.109.60'
+    bandwidth = '10000'  # Mbps
+    rtt = '32'  # ms
+    tcp_buf = '40'  # MB
+    max_channels = '32'
+    alg_interval = '30'  # Seconds
+    output_log = '/home/cc/dodocode/output/Chameleon_D_Tree_Avg_Data_Transfer_Nov_13_2021.csv'
+    init_alg_interval = '10'  # Seconds
+    inst_d_tree_output_log = '/mnt/ramdisk/decisionTree_cloudlab_InstLog.csv'
+    decisionTreeHashTableName = "input/D_Tree_HashFiles/Chameleon/Chameleon_HTML_D_Tree_Hash_File_Energy.csv"
+    decisionTreeHashTableSize = '204'
+    totalNumPhysicalCores = '24'
+    totalNumLogicalCores = '48'
+    governor = 'userspace'
+
+    dataset = HTML_dataset
+
+    cmd = cmd_prefix + ' ' + \
+          'algorithms.OptimalDataTransfer' + ' ' + \
+          testBedName + ' ' + \
+          algorithm + ' ' + \
+          dataset + ' ' + \
+          server_ip + ' ' + \
+          str(80) + ' ' + \
+          bandwidth + ' ' + \
+          rtt + ' ' + \
+          tcp_buf + ' ' + \
+          max_channels + ' ' + \
+          alg_interval + ' ' + \
+          output_log + ' ' + \
+          init_alg_interval + ' ' + \
+          inst_d_tree_output_log + ' ' + \
+          decisionTreeHashTableName + ' ' + \
+          decisionTreeHashTableSize + ' ' + \
+          totalNumPhysicalCores + ' ' + \
+          totalNumLogicalCores + ' ' + \
+          governor
+    print('Start transfer: Test Chameleon D_energy,  Iteration: ' + ", Dataset = " + dataset)
     subprocess.run(cmd, shell=True)
-    print('Finished transfer of: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
+    print('Finished transfer of: Test Chameleon D_Energy,  Iteration: ' + ", Dataset = " + dataset)
     time.sleep(10)
 
     #Decision Tree - Image
