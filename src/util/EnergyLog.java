@@ -16,7 +16,7 @@ public class EnergyLog extends Thread {
 	public EnergyLog(boolean cloudLabOrInterCloudLab) {
 		if (cloudLabOrInterCloudLab) {
 			runCloudLabEtrace2 = cloudLabOrInterCloudLab;
-			this.etrace2Command = "sudo /users/jamilm/intercoolr/etrace2 -i 1 -t " + 86400;
+			this.etrace2Command = "sudo etrace2 -i 1 -t " + 86400;
 			//this.etrace2Command = "sudo /users/lrodolph/intercoolr/etrace2 -i 1 -t " + 86400;
 		}
 	}

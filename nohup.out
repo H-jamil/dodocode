@@ -1,0 +1,3504 @@
+Preparing transfer...
+Preparing transfer...
+**** Opt: TestBedName: ARG[0] = chameleon *******
+**** Opt: AlgName: ARG[1] = testDecisionTree *******
+**** Opt: HTML COUNT: ARG[2] = 0 *******
+**** Opt: IMAGE COUNT: ARG[3] = 0 *******
+**** Opt: VIDEO COUNT: ARG[4] = 128 *******
+**** Opt: SERVER IP: ARG[5] = 192.5.87.128 *******
+**** Opt: SERVER PORT: ARG[6] = 80 *******
+**** Opt: Bandwidth (Mbps): ARG[7] = 10000 *******
+**** Opt: RTT (ms): ARG[8] = 32.0 *******
+**** Opt: TCP Buffer Size (MB) ARG[9] = 40.0 *******
+**** Opt: Max Channels: ARG[10] = 32 *******
+**** Opt: ARG[11] = 30 *******
+**** Opt: Output Log: ARG[12] = output/Chameleon_D_Tree_Avg_Data_Transfer_Nov_13_2021.csv *******
+*********OPTIMAL_DATA_TRANSFER: VIDEO DATA SIZE = 28516.37627029419_MB, IMAGE COUNT = 0
+**** testDecisionTree: initAlgInterval (sec): ARG[13] = 10 *******
+**** testDecisionTree: decisionTreeInstOutputFile: ARG[14] = /mnt/ramdisk/decisionTree_cloudlab_InstLog.csv *******
+**** testDecisionTree: decisionTreeHashTableFileName: ARG[15] = input/D_Tree_HashFiles/Chameleon/Chameleon_Video_D_Tree_Hash_File.csv *******
+**** testDecisionTree: decisionTreeHashTableSize: ARG[16] = 120 *******
+**** testDecisionTree: totalNumPhysicalCores: ARG[17] = 24 *******
+**** testDecisionTree: totalNumLogicalCores: ARG[18] = 48 *******
+**** testDecisionTree: governor: ARG[19] = userspace *******
+Logger.createCSVWriter called
+*********DataSet: READ LINE: ﻿"chameleon-video,10.0,0","(16, 32, 20, 2.2, 656.5699161452088)" ************
+*** Testbed and DataType: ﻿"chameleon-video
+*** New Testbed and DataType: "chameleon-video
+*** rtt: 10.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 32
+*** PP_Level Int = 32
+***Core Num String = 20
+*** Core Num Int = 20
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 656.5699161452088)"
+*** New predTput String = 656.5699161452088
+predTput double = 656.5699161452088
+Hashmap size before adding object = 0
+Hashmap size after adding object = 1
+*********DataSet: READ LINE: "chameleon-video,10.0,1000","(28, 12, 2, 1.2, 1738.7545158028674)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 12
+*** PP_Level Int = 12
+***Core Num String = 2
+*** Core Num Int = 2
+*** freq String = 1.2
+*** frequency as a Double in GHz = 1.2
+*** frequency as a Double in KHz = 1200000.0
+*** frequency as an Integer in KHz = 1200000
+*** predTput String = 1738.7545158028674)"
+*** New predTput String = 1738.7545158028674
+predTput double = 1738.7545158028674
+Hashmap size before adding object = 1
+Hashmap size after adding object = 2
+*********DataSet: READ LINE: "chameleon-video,10.0,2000","(8, 1, 16, 1.4, 2469.9217859701694)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(8
+***New CC_Level String w/o Parenthesis and comma = 8
+*** CC_Level Int = 8
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 1.4
+*** frequency as a Double in GHz = 1.4
+*** frequency as a Double in KHz = 1400000.0
+*** frequency as an Integer in KHz = 1400000
+*** predTput String = 2469.9217859701694)"
+*** New predTput String = 2469.9217859701694
+predTput double = 2469.9217859701694
+Hashmap size before adding object = 2
+Hashmap size after adding object = 3
+*********DataSet: READ LINE: "chameleon-video,10.0,3000","(28, 28, 48, 1.2, 3536.8518251205332)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 48
+*** Core Num Int = 48
+*** freq String = 1.2
+*** frequency as a Double in GHz = 1.2
+*** frequency as a Double in KHz = 1200000.0
+*** frequency as an Integer in KHz = 1200000
+*** predTput String = 3536.8518251205332)"
+*** New predTput String = 3536.8518251205332
+predTput double = 3536.8518251205332
+Hashmap size before adding object = 3
+Hashmap size after adding object = 4
+*********DataSet: READ LINE: "chameleon-video,10.0,4000","(12, 8, 8, 1.8, 4446.083913366472)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4446.083913366472)"
+*** New predTput String = 4446.083913366472
+predTput double = 4446.083913366472
+Hashmap size before adding object = 4
+Hashmap size after adding object = 5
+*********DataSet: READ LINE: "chameleon-video,10.0,5000","(32, 8, 28, 1.6, 5487.948200883172)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 1.6
+*** frequency as a Double in GHz = 1.6
+*** frequency as a Double in KHz = 1600000.0
+*** frequency as an Integer in KHz = 1600000
+*** predTput String = 5487.948200883172)"
+*** New predTput String = 5487.948200883172
+predTput double = 5487.948200883172
+Hashmap size before adding object = 5
+Hashmap size after adding object = 6
+*********DataSet: READ LINE: "chameleon-video,10.0,6000","(32, 1, 20, 2.3, 6370.777121386712)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 20
+*** Core Num Int = 20
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 6370.777121386712)"
+*** New predTput String = 6370.777121386712
+predTput double = 6370.777121386712
+Hashmap size before adding object = 6
+Hashmap size after adding object = 7
+*********DataSet: READ LINE: "chameleon-video,10.0,7000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 7
+Hashmap size after adding object = 8
+*********DataSet: READ LINE: "chameleon-video,10.0,8000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 8
+Hashmap size after adding object = 9
+*********DataSet: READ LINE: "chameleon-video,10.0,9000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 10.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 9
+Hashmap size after adding object = 10
+*********DataSet: READ LINE: "chameleon-video,20.0,0","(16, 32, 20, 2.2, 656.5699161452088)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 32
+*** PP_Level Int = 32
+***Core Num String = 20
+*** Core Num Int = 20
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 656.5699161452088)"
+*** New predTput String = 656.5699161452088
+predTput double = 656.5699161452088
+Hashmap size before adding object = 10
+Hashmap size after adding object = 11
+*********DataSet: READ LINE: "chameleon-video,20.0,1000","(28, 12, 2, 1.2, 1738.7545158028674)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 12
+*** PP_Level Int = 12
+***Core Num String = 2
+*** Core Num Int = 2
+*** freq String = 1.2
+*** frequency as a Double in GHz = 1.2
+*** frequency as a Double in KHz = 1200000.0
+*** frequency as an Integer in KHz = 1200000
+*** predTput String = 1738.7545158028674)"
+*** New predTput String = 1738.7545158028674
+predTput double = 1738.7545158028674
+Hashmap size before adding object = 11
+Hashmap size after adding object = 12
+*********DataSet: READ LINE: "chameleon-video,20.0,2000","(8, 1, 16, 1.4, 2469.9217859701694)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(8
+***New CC_Level String w/o Parenthesis and comma = 8
+*** CC_Level Int = 8
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 1.4
+*** frequency as a Double in GHz = 1.4
+*** frequency as a Double in KHz = 1400000.0
+*** frequency as an Integer in KHz = 1400000
+*** predTput String = 2469.9217859701694)"
+*** New predTput String = 2469.9217859701694
+predTput double = 2469.9217859701694
+Hashmap size before adding object = 12
+Hashmap size after adding object = 13
+*********DataSet: READ LINE: "chameleon-video,20.0,3000","(28, 28, 48, 1.2, 3536.8518251205332)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 48
+*** Core Num Int = 48
+*** freq String = 1.2
+*** frequency as a Double in GHz = 1.2
+*** frequency as a Double in KHz = 1200000.0
+*** frequency as an Integer in KHz = 1200000
+*** predTput String = 3536.8518251205332)"
+*** New predTput String = 3536.8518251205332
+predTput double = 3536.8518251205332
+Hashmap size before adding object = 13
+Hashmap size after adding object = 14
+*********DataSet: READ LINE: "chameleon-video,20.0,4000","(12, 8, 8, 1.8, 4446.083913366472)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4446.083913366472)"
+*** New predTput String = 4446.083913366472
+predTput double = 4446.083913366472
+Hashmap size before adding object = 14
+Hashmap size after adding object = 15
+*********DataSet: READ LINE: "chameleon-video,20.0,5000","(32, 8, 28, 1.6, 5487.948200883172)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 1.6
+*** frequency as a Double in GHz = 1.6
+*** frequency as a Double in KHz = 1600000.0
+*** frequency as an Integer in KHz = 1600000
+*** predTput String = 5487.948200883172)"
+*** New predTput String = 5487.948200883172
+predTput double = 5487.948200883172
+Hashmap size before adding object = 15
+Hashmap size after adding object = 16
+*********DataSet: READ LINE: "chameleon-video,20.0,6000","(32, 1, 20, 2.3, 6370.777121386712)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 20
+*** Core Num Int = 20
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 6370.777121386712)"
+*** New predTput String = 6370.777121386712
+predTput double = 6370.777121386712
+Hashmap size before adding object = 16
+Hashmap size after adding object = 17
+*********DataSet: READ LINE: "chameleon-video,20.0,7000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 17
+Hashmap size after adding object = 18
+*********DataSet: READ LINE: "chameleon-video,20.0,8000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 18
+Hashmap size after adding object = 19
+*********DataSet: READ LINE: "chameleon-video,20.0,9000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 20.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 19
+Hashmap size after adding object = 20
+*********DataSet: READ LINE: "chameleon-video,30.0,0","(16, 32, 20, 2.2, 656.5699161452088)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 32
+*** PP_Level Int = 32
+***Core Num String = 20
+*** Core Num Int = 20
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 656.5699161452088)"
+*** New predTput String = 656.5699161452088
+predTput double = 656.5699161452088
+Hashmap size before adding object = 20
+Hashmap size after adding object = 21
+*********DataSet: READ LINE: "chameleon-video,30.0,1000","(28, 12, 2, 1.2, 1738.7545158028674)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 12
+*** PP_Level Int = 12
+***Core Num String = 2
+*** Core Num Int = 2
+*** freq String = 1.2
+*** frequency as a Double in GHz = 1.2
+*** frequency as a Double in KHz = 1200000.0
+*** frequency as an Integer in KHz = 1200000
+*** predTput String = 1738.7545158028674)"
+*** New predTput String = 1738.7545158028674
+predTput double = 1738.7545158028674
+Hashmap size before adding object = 21
+Hashmap size after adding object = 22
+*********DataSet: READ LINE: "chameleon-video,30.0,2000","(8, 1, 16, 1.4, 2469.9217859701694)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(8
+***New CC_Level String w/o Parenthesis and comma = 8
+*** CC_Level Int = 8
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 1.4
+*** frequency as a Double in GHz = 1.4
+*** frequency as a Double in KHz = 1400000.0
+*** frequency as an Integer in KHz = 1400000
+*** predTput String = 2469.9217859701694)"
+*** New predTput String = 2469.9217859701694
+predTput double = 2469.9217859701694
+Hashmap size before adding object = 22
+Hashmap size after adding object = 23
+*********DataSet: READ LINE: "chameleon-video,30.0,3000","(28, 28, 48, 1.2, 3536.8518251205332)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 48
+*** Core Num Int = 48
+*** freq String = 1.2
+*** frequency as a Double in GHz = 1.2
+*** frequency as a Double in KHz = 1200000.0
+*** frequency as an Integer in KHz = 1200000
+*** predTput String = 3536.8518251205332)"
+*** New predTput String = 3536.8518251205332
+predTput double = 3536.8518251205332
+Hashmap size before adding object = 23
+Hashmap size after adding object = 24
+*********DataSet: READ LINE: "chameleon-video,30.0,4000","(12, 8, 8, 1.8, 4446.083913366472)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4446.083913366472)"
+*** New predTput String = 4446.083913366472
+predTput double = 4446.083913366472
+Hashmap size before adding object = 24
+Hashmap size after adding object = 25
+*********DataSet: READ LINE: "chameleon-video,30.0,5000","(32, 8, 28, 1.6, 5487.948200883172)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 1.6
+*** frequency as a Double in GHz = 1.6
+*** frequency as a Double in KHz = 1600000.0
+*** frequency as an Integer in KHz = 1600000
+*** predTput String = 5487.948200883172)"
+*** New predTput String = 5487.948200883172
+predTput double = 5487.948200883172
+Hashmap size before adding object = 25
+Hashmap size after adding object = 26
+*********DataSet: READ LINE: "chameleon-video,30.0,6000","(32, 1, 20, 2.3, 6370.777121386712)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 20
+*** Core Num Int = 20
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 6370.777121386712)"
+*** New predTput String = 6370.777121386712
+predTput double = 6370.777121386712
+Hashmap size before adding object = 26
+Hashmap size after adding object = 27
+*********DataSet: READ LINE: "chameleon-video,30.0,7000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 27
+Hashmap size after adding object = 28
+*********DataSet: READ LINE: "chameleon-video,30.0,8000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 28
+Hashmap size after adding object = 29
+*********DataSet: READ LINE: "chameleon-video,30.0,9000","(28, 8, 40, 1.8, 7113.388445210525)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 30.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 7113.388445210525)"
+*** New predTput String = 7113.388445210525
+predTput double = 7113.388445210525
+Hashmap size before adding object = 29
+Hashmap size after adding object = 30
+*********DataSet: READ LINE: "chameleon-video,40.0,0","(1, 20, 24, 1.4, 601.52709824)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(1
+***New CC_Level String w/o Parenthesis and comma = 1
+*** CC_Level Int = 1
+*** PP_Level String = 20
+*** PP_Level Int = 20
+***Core Num String = 24
+*** Core Num Int = 24
+*** freq String = 1.4
+*** frequency as a Double in GHz = 1.4
+*** frequency as a Double in KHz = 1400000.0
+*** frequency as an Integer in KHz = 1400000
+*** predTput String = 601.52709824)"
+*** New predTput String = 601.52709824
+predTput double = 601.52709824
+Hashmap size before adding object = 30
+Hashmap size after adding object = 31
+*********DataSet: READ LINE: "chameleon-video,40.0,1000","(4, 28, 16, 1.6, 1862.3083863333334)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(4
+***New CC_Level String w/o Parenthesis and comma = 4
+*** CC_Level Int = 4
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 1.6
+*** frequency as a Double in GHz = 1.6
+*** frequency as a Double in KHz = 1600000.0
+*** frequency as an Integer in KHz = 1600000
+*** predTput String = 1862.3083863333334)"
+*** New predTput String = 1862.3083863333334
+predTput double = 1862.3083863333334
+Hashmap size before adding object = 31
+Hashmap size after adding object = 32
+*********DataSet: READ LINE: "chameleon-video,40.0,2000","(20, 32, 44, 1.4, 2612.9855441428567)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(20
+***New CC_Level String w/o Parenthesis and comma = 20
+*** CC_Level Int = 20
+*** PP_Level String = 32
+*** PP_Level Int = 32
+***Core Num String = 44
+*** Core Num Int = 44
+*** freq String = 1.4
+*** frequency as a Double in GHz = 1.4
+*** frequency as a Double in KHz = 1400000.0
+*** frequency as an Integer in KHz = 1400000
+*** predTput String = 2612.9855441428567)"
+*** New predTput String = 2612.9855441428567
+predTput double = 2612.9855441428567
+Hashmap size before adding object = 32
+Hashmap size after adding object = 33
+*********DataSet: READ LINE: "chameleon-video,40.0,3000","(16, 28, 28, 2.0, 3512.268445)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.0
+*** frequency as a Double in GHz = 2.0
+*** frequency as a Double in KHz = 2000000.0
+*** frequency as an Integer in KHz = 2000000
+*** predTput String = 3512.268445)"
+*** New predTput String = 3512.268445
+predTput double = 3512.268445
+Hashmap size before adding object = 33
+Hashmap size after adding object = 34
+*********DataSet: READ LINE: "chameleon-video,40.0,4000","(28, 20, 32, 2.2, 4458.226889)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 20
+*** PP_Level Int = 20
+***Core Num String = 32
+*** Core Num Int = 32
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4458.226889)"
+*** New predTput String = 4458.226889
+predTput double = 4458.226889
+Hashmap size before adding object = 34
+Hashmap size after adding object = 35
+*********DataSet: READ LINE: "chameleon-video,40.0,5000","(28, 8, 32, 1.8, 6401.929383)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 32
+*** Core Num Int = 32
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 6401.929383)"
+*** New predTput String = 6401.929383
+predTput double = 6401.929383
+Hashmap size before adding object = 35
+Hashmap size after adding object = 36
+*********DataSet: READ LINE: "chameleon-video,40.0,6000","(28, 8, 32, 1.8, 6401.929383)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 32
+*** Core Num Int = 32
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 6401.929383)"
+*** New predTput String = 6401.929383
+predTput double = 6401.929383
+Hashmap size before adding object = 36
+Hashmap size after adding object = 37
+*********DataSet: READ LINE: "chameleon-video,40.0,7000","(28, 8, 48, 2.2, 7025.306383)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 48
+*** Core Num Int = 48
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 7025.306383)"
+*** New predTput String = 7025.306383
+predTput double = 7025.306383
+Hashmap size before adding object = 37
+Hashmap size after adding object = 38
+*********DataSet: READ LINE: "chameleon-video,40.0,8000","(28, 8, 48, 2.2, 7025.306383)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 48
+*** Core Num Int = 48
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 7025.306383)"
+*** New predTput String = 7025.306383
+predTput double = 7025.306383
+Hashmap size before adding object = 38
+Hashmap size after adding object = 39
+*********DataSet: READ LINE: "chameleon-video,40.0,9000","(28, 8, 48, 2.2, 7025.306383)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 40.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 48
+*** Core Num Int = 48
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 7025.306383)"
+*** New predTput String = 7025.306383
+predTput double = 7025.306383
+Hashmap size before adding object = 39
+Hashmap size after adding object = 40
+*********DataSet: READ LINE: "chameleon-video,50.0,0","(4, 28, 36, 2.3, 1760.011899)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(4
+***New CC_Level String w/o Parenthesis and comma = 4
+*** CC_Level Int = 4
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 36
+*** Core Num Int = 36
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 1760.011899)"
+*** New predTput String = 1760.011899
+predTput double = 1760.011899
+Hashmap size before adding object = 40
+Hashmap size after adding object = 41
+*********DataSet: READ LINE: "chameleon-video,50.0,1000","(4, 28, 36, 2.3, 1760.011899)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(4
+***New CC_Level String w/o Parenthesis and comma = 4
+*** CC_Level Int = 4
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 36
+*** Core Num Int = 36
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 1760.011899)"
+*** New predTput String = 1760.011899
+predTput double = 1760.011899
+Hashmap size before adding object = 41
+Hashmap size after adding object = 42
+*********DataSet: READ LINE: "chameleon-video,50.0,2000","(16, 24, 44, 1.6, 2421.0230158000004)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 44
+*** Core Num Int = 44
+*** freq String = 1.6
+*** frequency as a Double in GHz = 1.6
+*** frequency as a Double in KHz = 1600000.0
+*** frequency as an Integer in KHz = 1600000
+*** predTput String = 2421.0230158000004)"
+*** New predTput String = 2421.0230158000004
+predTput double = 2421.0230158000004
+Hashmap size before adding object = 42
+Hashmap size after adding object = 43
+*********DataSet: READ LINE: "chameleon-video,50.0,3000","(12, 1, 40, 2.2, 3185.1907410000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 3185.1907410000003)"
+*** New predTput String = 3185.1907410000003
+predTput double = 3185.1907410000003
+Hashmap size before adding object = 43
+Hashmap size after adding object = 44
+*********DataSet: READ LINE: "chameleon-video,50.0,4000","(12, 1, 40, 2.2, 3185.1907410000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 3185.1907410000003)"
+*** New predTput String = 3185.1907410000003
+predTput double = 3185.1907410000003
+Hashmap size before adding object = 44
+Hashmap size after adding object = 45
+*********DataSet: READ LINE: "chameleon-video,50.0,5000","(12, 1, 40, 2.2, 3185.1907410000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 3185.1907410000003)"
+*** New predTput String = 3185.1907410000003
+predTput double = 3185.1907410000003
+Hashmap size before adding object = 45
+Hashmap size after adding object = 46
+*********DataSet: READ LINE: "chameleon-video,50.0,6000","(12, 1, 40, 2.2, 3185.1907410000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 3185.1907410000003)"
+*** New predTput String = 3185.1907410000003
+predTput double = 3185.1907410000003
+Hashmap size before adding object = 46
+Hashmap size after adding object = 47
+*********DataSet: READ LINE: "chameleon-video,50.0,7000","(12, 1, 40, 2.2, 3185.1907410000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 3185.1907410000003)"
+*** New predTput String = 3185.1907410000003
+predTput double = 3185.1907410000003
+Hashmap size before adding object = 47
+Hashmap size after adding object = 48
+*********DataSet: READ LINE: "chameleon-video,50.0,8000","(12, 1, 40, 2.2, 3185.1907410000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 3185.1907410000003)"
+*** New predTput String = 3185.1907410000003
+predTput double = 3185.1907410000003
+Hashmap size before adding object = 48
+Hashmap size after adding object = 49
+*********DataSet: READ LINE: "chameleon-video,50.0,9000","(12, 1, 40, 2.2, 3185.1907410000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 50.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(12
+***New CC_Level String w/o Parenthesis and comma = 12
+*** CC_Level Int = 12
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 40
+*** Core Num Int = 40
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 3185.1907410000003)"
+*** New predTput String = 3185.1907410000003
+predTput double = 3185.1907410000003
+Hashmap size before adding object = 49
+Hashmap size after adding object = 50
+*********DataSet: READ LINE: "chameleon-video,60.0,0","(4, 28, 12, 1.6, 1540.502484)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(4
+***New CC_Level String w/o Parenthesis and comma = 4
+*** CC_Level Int = 4
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 12
+*** Core Num Int = 12
+*** freq String = 1.6
+*** frequency as a Double in GHz = 1.6
+*** frequency as a Double in KHz = 1600000.0
+*** frequency as an Integer in KHz = 1600000
+*** predTput String = 1540.502484)"
+*** New predTput String = 1540.502484
+predTput double = 1540.502484
+Hashmap size before adding object = 50
+Hashmap size after adding object = 51
+*********DataSet: READ LINE: "chameleon-video,60.0,1000","(4, 28, 12, 1.6, 1540.502484)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(4
+***New CC_Level String w/o Parenthesis and comma = 4
+*** CC_Level Int = 4
+*** PP_Level String = 28
+*** PP_Level Int = 28
+***Core Num String = 12
+*** Core Num Int = 12
+*** freq String = 1.6
+*** frequency as a Double in GHz = 1.6
+*** frequency as a Double in KHz = 1600000.0
+*** frequency as an Integer in KHz = 1600000
+*** predTput String = 1540.502484)"
+*** New predTput String = 1540.502484
+predTput double = 1540.502484
+Hashmap size before adding object = 51
+Hashmap size after adding object = 52
+*********DataSet: READ LINE: "chameleon-video,60.0,2000","(8, 20, 48, 1.4, 2723.512244)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(8
+***New CC_Level String w/o Parenthesis and comma = 8
+*** CC_Level Int = 8
+*** PP_Level String = 20
+*** PP_Level Int = 20
+***Core Num String = 48
+*** Core Num Int = 48
+*** freq String = 1.4
+*** frequency as a Double in GHz = 1.4
+*** frequency as a Double in KHz = 1400000.0
+*** frequency as an Integer in KHz = 1400000
+*** predTput String = 2723.512244)"
+*** New predTput String = 2723.512244
+predTput double = 2723.512244
+Hashmap size before adding object = 52
+Hashmap size after adding object = 53
+*********DataSet: READ LINE: "chameleon-video,60.0,3000","(16, 24, 16, 2.3, 3242.9093258000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 3242.9093258000003)"
+*** New predTput String = 3242.9093258000003
+predTput double = 3242.9093258000003
+Hashmap size before adding object = 53
+Hashmap size after adding object = 54
+*********DataSet: READ LINE: "chameleon-video,60.0,4000","(16, 24, 16, 2.3, 3242.9093258000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 3242.9093258000003)"
+*** New predTput String = 3242.9093258000003
+predTput double = 3242.9093258000003
+Hashmap size before adding object = 54
+Hashmap size after adding object = 55
+*********DataSet: READ LINE: "chameleon-video,60.0,5000","(16, 24, 16, 2.3, 3242.9093258000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 3242.9093258000003)"
+*** New predTput String = 3242.9093258000003
+predTput double = 3242.9093258000003
+Hashmap size before adding object = 55
+Hashmap size after adding object = 56
+*********DataSet: READ LINE: "chameleon-video,60.0,6000","(16, 24, 16, 2.3, 3242.9093258000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 3242.9093258000003)"
+*** New predTput String = 3242.9093258000003
+predTput double = 3242.9093258000003
+Hashmap size before adding object = 56
+Hashmap size after adding object = 57
+*********DataSet: READ LINE: "chameleon-video,60.0,7000","(16, 24, 16, 2.3, 3242.9093258000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 3242.9093258000003)"
+*** New predTput String = 3242.9093258000003
+predTput double = 3242.9093258000003
+Hashmap size before adding object = 57
+Hashmap size after adding object = 58
+*********DataSet: READ LINE: "chameleon-video,60.0,8000","(16, 24, 16, 2.3, 3242.9093258000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 3242.9093258000003)"
+*** New predTput String = 3242.9093258000003
+predTput double = 3242.9093258000003
+Hashmap size before adding object = 58
+Hashmap size after adding object = 59
+*********DataSet: READ LINE: "chameleon-video,60.0,9000","(16, 24, 16, 2.3, 3242.9093258000003)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 60.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 3242.9093258000003)"
+*** New predTput String = 3242.9093258000003
+predTput double = 3242.9093258000003
+Hashmap size before adding object = 59
+Hashmap size after adding object = 60
+*********DataSet: READ LINE: "chameleon-video,70.0,0","(24, 20, 2, 1.4, 1960.320182)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(24
+***New CC_Level String w/o Parenthesis and comma = 24
+*** CC_Level Int = 24
+*** PP_Level String = 20
+*** PP_Level Int = 20
+***Core Num String = 2
+*** Core Num Int = 2
+*** freq String = 1.4
+*** frequency as a Double in GHz = 1.4
+*** frequency as a Double in KHz = 1400000.0
+*** frequency as an Integer in KHz = 1400000
+*** predTput String = 1960.320182)"
+*** New predTput String = 1960.320182
+predTput double = 1960.320182
+Hashmap size before adding object = 60
+Hashmap size after adding object = 61
+*********DataSet: READ LINE: "chameleon-video,70.0,1000","(24, 20, 2, 1.4, 1960.320182)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(24
+***New CC_Level String w/o Parenthesis and comma = 24
+*** CC_Level Int = 24
+*** PP_Level String = 20
+*** PP_Level Int = 20
+***Core Num String = 2
+*** Core Num Int = 2
+*** freq String = 1.4
+*** frequency as a Double in GHz = 1.4
+*** frequency as a Double in KHz = 1400000.0
+*** frequency as an Integer in KHz = 1400000
+*** predTput String = 1960.320182)"
+*** New predTput String = 1960.320182
+predTput double = 1960.320182
+Hashmap size before adding object = 61
+Hashmap size after adding object = 62
+*********DataSet: READ LINE: "chameleon-video,70.0,2000","(32, 24, 16, 1.2, 2350.137491)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 24
+*** PP_Level Int = 24
+***Core Num String = 16
+*** Core Num Int = 16
+*** freq String = 1.2
+*** frequency as a Double in GHz = 1.2
+*** frequency as a Double in KHz = 1200000.0
+*** frequency as an Integer in KHz = 1200000
+*** predTput String = 2350.137491)"
+*** New predTput String = 2350.137491
+predTput double = 2350.137491
+Hashmap size before adding object = 62
+Hashmap size after adding object = 63
+*********DataSet: READ LINE: "chameleon-video,70.0,3000","(28, 8, 20, 2.3, 3367.8699955)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 8
+*** PP_Level Int = 8
+***Core Num String = 20
+*** Core Num Int = 20
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 3367.8699955)"
+*** New predTput String = 3367.8699955
+predTput double = 3367.8699955
+Hashmap size before adding object = 63
+Hashmap size after adding object = 64
+*********DataSet: READ LINE: "chameleon-video,70.0,4000","(24, 1, 36, 1.8, 4306.0942)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(24
+***New CC_Level String w/o Parenthesis and comma = 24
+*** CC_Level Int = 24
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 36
+*** Core Num Int = 36
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4306.0942)"
+*** New predTput String = 4306.0942
+predTput double = 4306.0942
+Hashmap size before adding object = 64
+Hashmap size after adding object = 65
+*********DataSet: READ LINE: "chameleon-video,70.0,5000","(24, 1, 36, 1.8, 4306.0942)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(24
+***New CC_Level String w/o Parenthesis and comma = 24
+*** CC_Level Int = 24
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 36
+*** Core Num Int = 36
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4306.0942)"
+*** New predTput String = 4306.0942
+predTput double = 4306.0942
+Hashmap size before adding object = 65
+Hashmap size after adding object = 66
+*********DataSet: READ LINE: "chameleon-video,70.0,6000","(24, 1, 36, 1.8, 4306.0942)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(24
+***New CC_Level String w/o Parenthesis and comma = 24
+*** CC_Level Int = 24
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 36
+*** Core Num Int = 36
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4306.0942)"
+*** New predTput String = 4306.0942
+predTput double = 4306.0942
+Hashmap size before adding object = 66
+Hashmap size after adding object = 67
+*********DataSet: READ LINE: "chameleon-video,70.0,7000","(24, 1, 36, 1.8, 4306.0942)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(24
+***New CC_Level String w/o Parenthesis and comma = 24
+*** CC_Level Int = 24
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 36
+*** Core Num Int = 36
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4306.0942)"
+*** New predTput String = 4306.0942
+predTput double = 4306.0942
+Hashmap size before adding object = 67
+Hashmap size after adding object = 68
+*********DataSet: READ LINE: "chameleon-video,70.0,8000","(24, 1, 36, 1.8, 4306.0942)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(24
+***New CC_Level String w/o Parenthesis and comma = 24
+*** CC_Level Int = 24
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 36
+*** Core Num Int = 36
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4306.0942)"
+*** New predTput String = 4306.0942
+predTput double = 4306.0942
+Hashmap size before adding object = 68
+Hashmap size after adding object = 69
+*********DataSet: READ LINE: "chameleon-video,70.0,9000","(24, 1, 36, 1.8, 4306.0942)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 70.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(24
+***New CC_Level String w/o Parenthesis and comma = 24
+*** CC_Level Int = 24
+*** PP_Level String = 1
+*** PP_Level Int = 1
+***Core Num String = 36
+*** Core Num Int = 36
+*** freq String = 1.8
+*** frequency as a Double in GHz = 1.8
+*** frequency as a Double in KHz = 1800000.0
+*** frequency as an Integer in KHz = 1800000
+*** predTput String = 4306.0942)"
+*** New predTput String = 4306.0942
+predTput double = 4306.0942
+Hashmap size before adding object = 69
+Hashmap size after adding object = 70
+*********DataSet: READ LINE: "chameleon-video,80.0,0","(32, 20, 32, 2.3, 2443.6242862)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 20
+*** PP_Level Int = 20
+***Core Num String = 32
+*** Core Num Int = 32
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 2443.6242862)"
+*** New predTput String = 2443.6242862
+predTput double = 2443.6242862
+Hashmap size before adding object = 70
+Hashmap size after adding object = 71
+*********DataSet: READ LINE: "chameleon-video,80.0,1000","(32, 20, 32, 2.3, 2443.6242862)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 20
+*** PP_Level Int = 20
+***Core Num String = 32
+*** Core Num Int = 32
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 2443.6242862)"
+*** New predTput String = 2443.6242862
+predTput double = 2443.6242862
+Hashmap size before adding object = 71
+Hashmap size after adding object = 72
+*********DataSet: READ LINE: "chameleon-video,80.0,2000","(32, 20, 32, 2.3, 2443.6242862)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(32
+***New CC_Level String w/o Parenthesis and comma = 32
+*** CC_Level Int = 32
+*** PP_Level String = 20
+*** PP_Level Int = 20
+***Core Num String = 32
+*** Core Num Int = 32
+*** freq String = 2.3
+*** frequency as a Double in GHz = 2.3
+*** frequency as a Double in KHz = 2300000.0
+*** frequency as an Integer in KHz = 2300000
+*** predTput String = 2443.6242862)"
+*** New predTput String = 2443.6242862
+predTput double = 2443.6242862
+Hashmap size before adding object = 72
+Hashmap size after adding object = 73
+*********DataSet: READ LINE: "chameleon-video,80.0,3000","(28, 4, 8, 2.0, 3471.3115035)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 2.0
+*** frequency as a Double in GHz = 2.0
+*** frequency as a Double in KHz = 2000000.0
+*** frequency as an Integer in KHz = 2000000
+*** predTput String = 3471.3115035)"
+*** New predTput String = 3471.3115035
+predTput double = 3471.3115035
+Hashmap size before adding object = 73
+Hashmap size after adding object = 74
+*********DataSet: READ LINE: "chameleon-video,80.0,4000","(28, 4, 8, 2.0, 3471.3115035)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 2.0
+*** frequency as a Double in GHz = 2.0
+*** frequency as a Double in KHz = 2000000.0
+*** frequency as an Integer in KHz = 2000000
+*** predTput String = 3471.3115035)"
+*** New predTput String = 3471.3115035
+predTput double = 3471.3115035
+Hashmap size before adding object = 74
+Hashmap size after adding object = 75
+*********DataSet: READ LINE: "chameleon-video,80.0,5000","(28, 4, 8, 2.0, 3471.3115035)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 2.0
+*** frequency as a Double in GHz = 2.0
+*** frequency as a Double in KHz = 2000000.0
+*** frequency as an Integer in KHz = 2000000
+*** predTput String = 3471.3115035)"
+*** New predTput String = 3471.3115035
+predTput double = 3471.3115035
+Hashmap size before adding object = 75
+Hashmap size after adding object = 76
+*********DataSet: READ LINE: "chameleon-video,80.0,6000","(28, 4, 8, 2.0, 3471.3115035)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 2.0
+*** frequency as a Double in GHz = 2.0
+*** frequency as a Double in KHz = 2000000.0
+*** frequency as an Integer in KHz = 2000000
+*** predTput String = 3471.3115035)"
+*** New predTput String = 3471.3115035
+predTput double = 3471.3115035
+Hashmap size before adding object = 76
+Hashmap size after adding object = 77
+*********DataSet: READ LINE: "chameleon-video,80.0,7000","(28, 4, 8, 2.0, 3471.3115035)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 2.0
+*** frequency as a Double in GHz = 2.0
+*** frequency as a Double in KHz = 2000000.0
+*** frequency as an Integer in KHz = 2000000
+*** predTput String = 3471.3115035)"
+*** New predTput String = 3471.3115035
+predTput double = 3471.3115035
+Hashmap size before adding object = 77
+Hashmap size after adding object = 78
+*********DataSet: READ LINE: "chameleon-video,80.0,8000","(28, 4, 8, 2.0, 3471.3115035)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 2.0
+*** frequency as a Double in GHz = 2.0
+*** frequency as a Double in KHz = 2000000.0
+*** frequency as an Integer in KHz = 2000000
+*** predTput String = 3471.3115035)"
+*** New predTput String = 3471.3115035
+predTput double = 3471.3115035
+Hashmap size before adding object = 78
+Hashmap size after adding object = 79
+*********DataSet: READ LINE: "chameleon-video,80.0,9000","(28, 4, 8, 2.0, 3471.3115035)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 80.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(28
+***New CC_Level String w/o Parenthesis and comma = 28
+*** CC_Level Int = 28
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 8
+*** Core Num Int = 8
+*** freq String = 2.0
+*** frequency as a Double in GHz = 2.0
+*** frequency as a Double in KHz = 2000000.0
+*** frequency as an Integer in KHz = 2000000
+*** predTput String = 3471.3115035)"
+*** New predTput String = 3471.3115035
+predTput double = 3471.3115035
+Hashmap size before adding object = 79
+Hashmap size after adding object = 80
+*********DataSet: READ LINE: "chameleon-video,90.0,0","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 80
+Hashmap size after adding object = 81
+*********DataSet: READ LINE: "chameleon-video,90.0,1000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 81
+Hashmap size after adding object = 82
+*********DataSet: READ LINE: "chameleon-video,90.0,2000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 82
+Hashmap size after adding object = 83
+*********DataSet: READ LINE: "chameleon-video,90.0,3000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 83
+Hashmap size after adding object = 84
+*********DataSet: READ LINE: "chameleon-video,90.0,4000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 84
+Hashmap size after adding object = 85
+*********DataSet: READ LINE: "chameleon-video,90.0,5000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 85
+Hashmap size after adding object = 86
+*********DataSet: READ LINE: "chameleon-video,90.0,6000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 86
+Hashmap size after adding object = 87
+*********DataSet: READ LINE: "chameleon-video,90.0,7000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 87
+Hashmap size after adding object = 88
+*********DataSet: READ LINE: "chameleon-video,90.0,8000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 88
+Hashmap size after adding object = 89
+*********DataSet: READ LINE: "chameleon-video,90.0,9000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 90.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 89
+Hashmap size after adding object = 90
+*********DataSet: READ LINE: "chameleon-video,100.0,0","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 90
+Hashmap size after adding object = 91
+*********DataSet: READ LINE: "chameleon-video,100.0,1000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 91
+Hashmap size after adding object = 92
+*********DataSet: READ LINE: "chameleon-video,100.0,2000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 92
+Hashmap size after adding object = 93
+*********DataSet: READ LINE: "chameleon-video,100.0,3000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 93
+Hashmap size after adding object = 94
+*********DataSet: READ LINE: "chameleon-video,100.0,4000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 94
+Hashmap size after adding object = 95
+*********DataSet: READ LINE: "chameleon-video,100.0,5000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 95
+Hashmap size after adding object = 96
+*********DataSet: READ LINE: "chameleon-video,100.0,6000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 96
+Hashmap size after adding object = 97
+*********DataSet: READ LINE: "chameleon-video,100.0,7000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 97
+Hashmap size after adding object = 98
+*********DataSet: READ LINE: "chameleon-video,100.0,8000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 98
+Hashmap size after adding object = 99
+*********DataSet: READ LINE: "chameleon-video,100.0,9000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 100.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 99
+Hashmap size after adding object = 100
+*********DataSet: READ LINE: "chameleon-video,110.0,0","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 100
+Hashmap size after adding object = 101
+*********DataSet: READ LINE: "chameleon-video,110.0,1000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 101
+Hashmap size after adding object = 102
+*********DataSet: READ LINE: "chameleon-video,110.0,2000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 102
+Hashmap size after adding object = 103
+*********DataSet: READ LINE: "chameleon-video,110.0,3000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 103
+Hashmap size after adding object = 104
+*********DataSet: READ LINE: "chameleon-video,110.0,4000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 104
+Hashmap size after adding object = 105
+*********DataSet: READ LINE: "chameleon-video,110.0,5000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 105
+Hashmap size after adding object = 106
+*********DataSet: READ LINE: "chameleon-video,110.0,6000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 106
+Hashmap size after adding object = 107
+*********DataSet: READ LINE: "chameleon-video,110.0,7000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 107
+Hashmap size after adding object = 108
+*********DataSet: READ LINE: "chameleon-video,110.0,8000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 108
+Hashmap size after adding object = 109
+*********DataSet: READ LINE: "chameleon-video,110.0,9000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 110.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 109
+Hashmap size after adding object = 110
+*********DataSet: READ LINE: "chameleon-video,120.0,0","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 0" String Length = 2
+***New Throughput: 0 String Length = 1
+***Throughput as int: 0
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 110
+Hashmap size after adding object = 111
+*********DataSet: READ LINE: "chameleon-video,120.0,1000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 1000" String Length = 5
+***New Throughput: 1000 String Length = 4
+***Throughput as int: 1000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 111
+Hashmap size after adding object = 112
+*********DataSet: READ LINE: "chameleon-video,120.0,2000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 2000" String Length = 5
+***New Throughput: 2000 String Length = 4
+***Throughput as int: 2000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 112
+Hashmap size after adding object = 113
+*********DataSet: READ LINE: "chameleon-video,120.0,3000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 3000" String Length = 5
+***New Throughput: 3000 String Length = 4
+***Throughput as int: 3000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 113
+Hashmap size after adding object = 114
+*********DataSet: READ LINE: "chameleon-video,120.0,4000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 4000" String Length = 5
+***New Throughput: 4000 String Length = 4
+***Throughput as int: 4000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 114
+Hashmap size after adding object = 115
+*********DataSet: READ LINE: "chameleon-video,120.0,5000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 5000" String Length = 5
+***New Throughput: 5000 String Length = 4
+***Throughput as int: 5000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 115
+Hashmap size after adding object = 116
+*********DataSet: READ LINE: "chameleon-video,120.0,6000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 6000" String Length = 5
+***New Throughput: 6000 String Length = 4
+***Throughput as int: 6000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 116
+Hashmap size after adding object = 117
+*********DataSet: READ LINE: "chameleon-video,120.0,7000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 7000" String Length = 5
+***New Throughput: 7000 String Length = 4
+***Throughput as int: 7000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 117
+Hashmap size after adding object = 118
+*********DataSet: READ LINE: "chameleon-video,120.0,8000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 8000" String Length = 5
+***New Throughput: 8000 String Length = 4
+***Throughput as int: 8000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 118
+Hashmap size after adding object = 119
+*********DataSet: READ LINE: "chameleon-video,120.0,9000","(16, 4, 28, 2.2, 4268.572345)" ************
+*** Testbed and DataType: "chameleon-video
+*** New Testbed and DataType: chameleon-video
+*** rtt: 120.0
+***Throughput: 9000" String Length = 5
+***New Throughput: 9000 String Length = 4
+***Throughput as int: 9000
+***CC_Level String = "(16
+***New CC_Level String w/o Parenthesis and comma = 16
+*** CC_Level Int = 16
+*** PP_Level String = 4
+*** PP_Level Int = 4
+***Core Num String = 28
+*** Core Num Int = 28
+*** freq String = 2.2
+*** frequency as a Double in GHz = 2.2
+*** frequency as a Double in KHz = 2200000.0
+*** frequency as an Integer in KHz = 2200000
+*** predTput String = 4268.572345)"
+*** New predTput String = 4268.572345
+predTput double = 4268.572345
+Hashmap size before adding object = 119
+Hashmap size after adding object = 120
+*****************testDecisionTree: video: AVG FILE SIZE IN KILO BYTES = DATA_SET_SIZE_(29901587764_B) / FileCount_(128) = 228131.01016235352_KB ********************
+******Dataset: Split function: Dataset_size_(29901587764) / fileList_size_(128) > chunkSize_(40000000) SPLITING EACH FILE WITHIN THIS DATASET INTO CHUNKS, EACH CHUNK WILL BE CONSIDERED A FILE
+Test Decision Tree CLASS: Data transfer of video with initial parameters (cc, p, core, freq) = (32, 8, 28, 1600000 )
+<CPU LOAD> Turning on core 0
+<CPU LOAD> Turning on core 1
+<CPU LOAD> Turning on core 2
+<CPU LOAD> Turning on core 3
+<CPU LOAD> Turning on core 4
+<CPU LOAD> Turning on core 5
+<CPU LOAD> Turning on core 6
+<CPU LOAD> Turning on core 7
+<CPU LOAD> Turning on core 8
+<CPU LOAD> Turning on core 9
+<CPU LOAD> Turning on core 10
+<CPU LOAD> Turning on core 11
+<CPU LOAD> Turning on core 12
+<CPU LOAD> Turning on core 13
+<CPU LOAD> Turning on core 14
+<CPU LOAD> Turning on core 15
+<CPU LOAD> Turning on core 16
+<CPU LOAD> Turning on core 17
+<CPU LOAD> Turning on core 18
+<CPU LOAD> Turning on core 19
+<CPU LOAD> Turning on core 20
+<CPU LOAD> Turning on core 21
+<CPU LOAD> Turning on core 22
+<CPU LOAD> Turning on core 23
+<CPU LOAD> Turning on core 24
+<CPU LOAD> Turning on core 25
+<CPU LOAD> Turning on core 26
+<CPU LOAD> Turning on core 27
+<CPU LOAD> Turning off core 28
+<CPU LOAD> Turning off core 29
+<CPU LOAD> Turning off core 30
+<CPU LOAD> Turning off core 31
+<CPU LOAD> Turning off core 32
+<CPU LOAD> Turning off core 33
+<CPU LOAD> Turning off core 34
+<CPU LOAD> Turning off core 35
+<CPU LOAD> Turning off core 36
+<CPU LOAD> Turning off core 37
+<CPU LOAD> Turning off core 38
+<CPU LOAD> Turning off core 39
+<CPU LOAD> Turning off core 40
+<CPU LOAD> Turning off core 41
+<CPU LOAD> Turning off core 42
+<CPU LOAD> Turning off core 43
+<CPU LOAD> Turning off core 44
+<CPU LOAD> Turning off core 45
+<CPU LOAD> Turning off core 46
+<CPU LOAD> Turning off core 47
+TRANSFER CLASS: Data transfer of video with initial parameters (pp, p, cc) = (8, 1, 32)
+Transfer: updateChannels Method: parameter ccLevel = 28 current Transfer ccLevel = 32, remainingFiles count down latch = 814
+Removing 4 channels from video
+<CPU LOAD> Turning off core: 27
+<CPU LOAD> Turning off core: 26
+<CPU LOAD> Turning off core: 25
+<CPU LOAD> Turning off core: 24
+<CPU LOAD> Turning off core: 23
+<CPU LOAD> Turning off core: 22
+<CPU LOAD> Turning off core: 21
+<CPU LOAD> Turning off core: 20
+<CPU LOAD> Turning off core: 19
+<CPU LOAD> Turning off core: 18
+<CPU LOAD> Turning off core: 17
+<CPU LOAD> Turning off core: 16
+<CPU LOAD> Turning off core: 15
+<CPU LOAD> Turning off core: 14
+<CPU LOAD> Turning off core: 13
+<CPU LOAD> Turning off core: 12
+<CPU LOAD> Turning off core: 11
+<CPU LOAD> Turning off core: 10
+<CPU LOAD> Turning off core: 9
+<CPU LOAD> Turning off core: 8
+<CPU LOAD> Turning off core: 7
+<CPU LOAD> Turning off core: 6
+<CPU LOAD> Turning off core: 5
+<CPU LOAD> Turning off core: 4
+<CPU LOAD> Turning off core: 3
+<CPU LOAD> Turning off core: 2
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+Timeout or Error, restarting client	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+Timeout or Error, restarting client
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+Timeout or Error, restarting client
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+Timeout or Error, restarting client
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+Timeout or Error, restarting client
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+Timeout or Error, restarting client
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+Timeout or Error, restarting client
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+Timeout or Error, restarting client
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+Timeout or Error, restarting client
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+Timeout or Error, restarting client
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+Timeout or Error, restarting client
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+Timeout or Error, restarting client
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+Timeout or Error, restarting client
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+Timeout or Error, restarting client
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+Timeout or Error, restarting client
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+Timeout or Error, restarting client
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+Timeout or Error, restarting client
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+Timeout or Error, restarting client
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+Timeout or Error, restarting client
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+Timeout or Error, restarting client
+	at network.FileDownload.run(FileDownload.java:172)Timeout or Error, restarting client
+Timeout or Error, restarting client
+
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+Timeout or Error, restarting client
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Timeout or Error, restarting client
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+Timeout or Error, restarting client
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+Timeout or Error, restarting client
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.TimeoutException
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75)
+	at network.FileDownload.run(FileDownload.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
