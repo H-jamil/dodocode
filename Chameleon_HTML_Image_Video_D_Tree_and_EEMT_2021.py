@@ -3,6 +3,8 @@ from datetime import datetime
 import csv
 import time
 
+output_log = 'output/Chameleon_D_Tree_Avg_Data_Transfer_Mar_16_2022.csv'
+
 #
 			# 13 SHARED PARAMETERS (0 - 12)
             #--------------------------------
@@ -30,7 +32,7 @@ import time
             # 19. MinRttInterval
             # 20. MaxRttInterval
 
-for i in range(5):
+for i in range(1):
     #Decision Tree - HTML
     cmd_prefix = 'sudo java -d64 -Xms15g -Xmx15g -XX:MaxDirectMemorySize=50G -cp .:lib/*:bin/'
     testBedName = 'chameleon'
@@ -45,7 +47,6 @@ for i in range(5):
     tcp_buf = '40'  # MB
     max_channels = '32'
     alg_interval = '30'  # Seconds
-    output_log = 'output/Chameleon_D_Tree_Avg_Data_Transfer_Nov_13_2021.csv'
     init_alg_interval = '10'  # Seconds
     inst_d_tree_output_log = '/mnt/ramdisk/decisionTree_cloudlab_InstLog.csv'
     decisionTreeHashTableName = "input/D_Tree_HashFiles/Chameleon/Chameleon_HTML_D_Tree_Hash_File.csv"
@@ -53,7 +54,6 @@ for i in range(5):
     totalNumPhysicalCores = '24'
     totalNumLogicalCores = '48'
     governor = 'userspace'
-
     dataset = HTML_dataset
 
     cmd = cmd_prefix + ' ' + \
@@ -95,7 +95,7 @@ for i in range(5):
     tcp_buf = '40'  # MB
     max_channels = '32'
     alg_interval = '30'  # Seconds
-    output_log = 'output/Luigi_EEMT_Transfer_Nov_13_2021.csv'
+   
     #############################
     numCores = '24'
     numActiveCores = '24'
@@ -149,7 +149,7 @@ for i in range(5):
     tcp_buf = '40'  # MB
     max_channels = '32'
     alg_interval = '30'  # Seconds
-    output_log = 'output/Chameleon_D_Tree_Avg_Data_Transfer_Nov_13_2021.csv'
+   
     init_alg_interval = '10'  # Seconds
     inst_d_tree_output_log = '/mnt/ramdisk/decisionTree_cloudlab_InstLog.csv'
     decisionTreeHashTableName = "input/D_Tree_HashFiles/Chameleon/Chameleon_Image_D_Tree_Hash_File.csv"
@@ -180,10 +180,10 @@ for i in range(5):
           totalNumPhysicalCores + ' ' + \
           totalNumLogicalCores + ' ' + \
           governor
-    #print('Start transfer: Test Chameleon Decision Tree,  Iteration: ' + ", Dataset = " + dataset)
-    #subprocess.run(cmd, shell=True)
-    #print('Finished transfer of: Test Chameleon Decision Tree,  Iteration: ' + ", Dataset = " + dataset)
-    #time.sleep(10)
+    print('Start transfer: Test Chameleon Decision Tree,  Iteration: ' + ", Dataset = " + dataset)
+    subprocess.run(cmd, shell=True)
+    print('Finished transfer of: Test Chameleon Decision Tree,  Iteration: ' + ", Dataset = " + dataset)
+    time.sleep(10)
 
     #Luigi's EEMT Image
     cmd_prefix = 'sudo java -d64 -Xms15g -Xmx15g -XX:MaxDirectMemorySize=50G -cp .:lib/*:bin/'
@@ -199,7 +199,7 @@ for i in range(5):
     tcp_buf = '40'  # MB
     max_channels = '32'
     alg_interval = '30'  # Seconds
-    output_log = 'output/Luigi_EEMT_Transfer_Nov_13_2021.csv'
+   
     #############################
     numCores = '24'
     numActiveCores = '24'
@@ -234,10 +234,10 @@ for i in range(5):
           lowerBound + ' ' + \
           maxPP
 
-    #print('Start transfer: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
-    #subprocess.run(cmd, shell=True)
-    #print('Finished transfer of: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
-    #time.sleep(10)
+    print('Start transfer: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
+    subprocess.run(cmd, shell=True)
+    print('Finished transfer of: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
+    time.sleep(10)
 
 ########
     #Decision Tree - Video
@@ -254,7 +254,7 @@ for i in range(5):
     tcp_buf = '40'  # MB
     max_channels = '32'
     alg_interval = '30'  # Seconds
-    output_log = 'output/Chameleon_D_Tree_Avg_Data_Transfer_Nov_13_2021.csv'
+    
     init_alg_interval = '10'  # Seconds
     inst_d_tree_output_log = '/mnt/ramdisk/decisionTree_cloudlab_InstLog.csv'
     decisionTreeHashTableName = "input/D_Tree_HashFiles/Chameleon/Chameleon_Video_D_Tree_Hash_File.csv"
@@ -285,10 +285,10 @@ for i in range(5):
           totalNumPhysicalCores + ' ' + \
           totalNumLogicalCores + ' ' + \
           governor
-    #print('Start transfer: Test Chameleon Decision Tree,  Iteration: ' + ", Dataset = " + dataset)
-    #subprocess.run(cmd, shell=True)
-    #print('Finished transfer of: Test Chameleon Decision Tree,  Iteration: ' + ", Dataset = " + dataset)
-    #time.sleep(10)
+    print('Start transfer: Test Chameleon Decision Tree,  Iteration: ' + ", Dataset = " + dataset)
+    subprocess.run(cmd, shell=True)
+    print('Finished transfer of: Test Chameleon Decision Tree,  Iteration: ' + ", Dataset = " + dataset)
+    time.sleep(10)
 
     #Luigi's EEMT Video
     cmd_prefix = 'sudo java -d64 -Xms15g -Xmx15g -XX:MaxDirectMemorySize=50G -cp .:lib/*:bin/'
@@ -304,7 +304,7 @@ for i in range(5):
     tcp_buf = '40'  # MB
     max_channels = '32'
     alg_interval = '30'  # Seconds
-    output_log = 'output/Luigi_EEMT_Transfer_Nov_13_2021.csv'
+    
     #############################
     numCores = '24'
     numActiveCores = '24'
@@ -339,10 +339,8 @@ for i in range(5):
           lowerBound + ' ' + \
           maxPP
 
-    #print('Start transfer: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
-    #subprocess.run(cmd, shell=True)
-    #print('Finished transfer of: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
-    #time.sleep(10)
-
-
+    print('Start transfer: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
+    subprocess.run(cmd, shell=True)
+    print('Finished transfer of: LuigiEEMT,  Iteration: ' + ", Dataset = " + dataset)
+    time.sleep(10)
 
