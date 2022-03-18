@@ -11,5 +11,5 @@ while [ "$i" -le "$number" ]; do
   #Increment File Num
   i=$(($i + 1))
 done
-echo "Changing Directories: /users/jamilm/dodocode/"
-cd /users/jamilm/dodocode/
+echo "Changing Directories: /home/cc/dodocode/"
+cd /home/cc/dodocode/
