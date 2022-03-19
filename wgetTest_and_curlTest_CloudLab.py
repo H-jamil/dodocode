@@ -30,7 +30,7 @@ videoDataSetSize = 29901587764
 
 datasets = [htmlDataSetName, imageDataSetName, videoDataSetName]
 
-filename = 'Chameleon_Curl_Test_Results_mar_17_2022.csv'
+filename = 'intercloud_Curl_Test_Results_mar_19_2022.csv'
 with open(filename, 'a') as csvfile:
     headers = ['Data Set', ' Size', 'Start Time', 'End Time']
     writer = csv.DictWriter(csvfile, delimiter=',', lineterminator='\n', fieldnames=headers)
@@ -40,11 +40,11 @@ cmd_prefix = 'sudo /usr/bin/curl http://129.114.109.60/'
 
 wget_cmd_prefix = 'sudo wget -P /mnt/ramdisk http://129.114.109.60/'
 
-rm_file_script_path = '/home/cc/dodocode/rmFilesFromRamDisk.sh'
+rm_file_script_path = '/users/jamilm/dodocode/rmFilesFromRamDisk.sh'
 
-turn_on_cpus_script_path = '/home/cc/dodocode/turnOnAllCloudLabCores.sh'
+turn_on_cpus_script_path = '/users/jamilm/dodocode/turnOnAllCloudLabCores.sh'
 
-change_cpu_gov_to_performance_path = '/home/cc/dodocode/changeCpusToPerformanceForCloudLab.sh'
+change_cpu_gov_to_performance_path = '/users/jamilm/dodocode/changeCpusToPerformanceForCloudLab.sh'
 
 # This is equivalent to source as in source bashScript.sh
 # we do . bashScript.h
@@ -183,14 +183,14 @@ def downloadTestFiles(writeToFile):
 # mode = w means overwrite file, or erase file and add this content
 # note csv.writer.writerow takes in a list of strings
 def writeHeaderToFile():
-    with open('curl_test_chameleon_march_17_2022.csv', mode='a') as curl_test_chameleon:
+    with open('curl_test_intercloud_mar_19_2022.csv', mode='a') as curl_test_chameleon:
         curl_writer = csv.writer(curl_test_chameleon, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         curl_writer.writerow(['Data Set', 'Size', 'Date', 'Start Time', 'End Time'])
 
 
 # mode = a means append data
 def writeDataToFile(dataSetName, size, date, startTime, endTime):
-    with open('curl_test_chameleon_march_17_2022.csv', mode='a') as curl_test_chameleon:
+    with open('curl_test_chameleon_march_19_2022.csv', mode='a') as curl_test_chameleon:
         curl_writer = csv.writer(curl_test_chameleon, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         curl_writer.writerow([dataSetName, size, date, startTime, endTime])
 
@@ -198,14 +198,14 @@ def writeDataToFile(dataSetName, size, date, startTime, endTime):
 ##############################
 
 def writeHeaderToFile_wget():
-    with open('wget_test_chamaleon_march_17_2022.csv', mode='a') as wget_test_chameleon:
+    with open('wget_test_intercloud_march_19_2022.csv', mode='a') as wget_test_chameleon:
         wget_writer = csv.writer(wget_test_chameleon, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         wget_writer.writerow(['Data Set', 'Size', 'Date', 'Start Time', 'End Time'])
 
 
 # mode = a means append data
 def writeDataToFile_wget(dataSetName, size, date, startTime, endTime):
-    with open('wget_test_chameleon_march_17_2022.csv', mode='a') as wget_test_chameleon:
+    with open('wget_test_intercloud_march_19_2022.csv', mode='a') as wget_test_chameleon:
         wget_writer = csv.writer(wget_test_chameleon, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         wget_writer.writerow([dataSetName, size, date, startTime, endTime])
 
