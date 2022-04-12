@@ -3,9 +3,9 @@ from datetime import datetime
 import csv
 import time
 
-output_log = 'output/Chameleon_D_Tree_Avg_Data_Transfer_Mar_17_2022.csv'
+output_log = 'output/Chameleon_D_Tree_Avg_Data_Transfer_Mar_17_Jacob_2022.csv'
 server_ip = '129.114.109.60'
-episodes = 5
+episodes = 10
 chameleon_hash_file_html ="input/D_Tree_HashFiles/Chameleon/Chameleon_HTML_D_Tree_Hash_File_Energy.csv"
 chameleon_hash_file_image ="input/D_Tree_HashFiles/Chameleon/Chameleon_Image_D_Tree_Hash_File_Energy.csv"
 chameleon_hash_file_video ="input/D_Tree_HashFiles/Chameleon/Chameleon_Video_D_Tree_Hash_File_Energy.csv"
