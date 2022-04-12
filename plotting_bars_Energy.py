@@ -11,9 +11,18 @@ barWidth = 0.2
 
 
 # set height of bar for memory access
-HTML_file=[11234.45673,12001.345,388.9458739,1301.251385,457.8987919]
-Image_File=[9283.56745,8567.3456,2173.101538,4037.372025,2423.733818]
-Video_file=[7959.456,8023.456,5454.51807,7956.187081,7502.013262]
+# HTML_file=[11234.45673,12001.345,388.9458739,1301.251385,457.8987919] #Cloudlab
+# Image_File=[9283.56745,8567.3456,2173.101538,4037.372025,2423.733818]#Cloudlab
+# Video_file=[7959.456,8023.456,5454.51807,7956.187081,7502.013262]#Cloudlab
+
+HTML_file=[64755.20106,68204.14394,818.2347722,1889.305026,806.0557457] #Chameleon
+Image_File=[162423.2999,139357.1265,1071.407471,3517.605434,1249.809929] #Chameleon
+Video_file=[31122.29063,51192.71765,2551.239677,6395.780047,4280.099586] #Chameleon
+
+# # HTML_file=[0.56642405,0.434486392,759.37,349.93,881.386649] #intercloud
+# # Image_File=[10.23506598,10.43042409,930.90,717.45,931.9280826] #intercloud
+# # Video_file=[66.44797281,63.6203995,842.80,841.08,880.6041773] #intercloud
+
 # SDarrayTree2=[6,7,6,12,7,8]
 # random1arrayTree1=[11,12,13,14,10,13]
 # random1arrayTree2=[5,7,6,10,3,4]
@@ -61,5 +70,7 @@ plt.xticks([r + barWidth for r in range(len(HTML_file))], ["curl","wget","Min En
 plt.legend(loc='upper right',prop={'size': 16},bbox_to_anchor=(1, 1),
           ncol=1,fancybox=True, shadow=True)
 
-# fig.savefig('cloudLab_Energy.png',dpi=fig.dpi)
+# fig.savefig('figures/cloudLab_Energy.png',dpi=fig.dpi)
+fig.savefig('figures/chameleon_Energy.png',dpi=fig.dpi)
+# fig.savefig('figures/intercloud_Energy.png',dpi=fig.dpi)
 plt.show()

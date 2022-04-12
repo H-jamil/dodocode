@@ -11,9 +11,18 @@ barWidth = 0.2
 
 
 # set height of bar for memory access
-HTML_file=[0.56642405,0.434486392,759.37,349.93,881.386649]
-Image_File=[10.23506598,10.43042409,930.90,717.45,931.9280826]
-Video_file=[66.44797281,63.6203995,842.80,841.08,880.6041773]
+# HTML_file=[0.56642405,0.434486392,759.37,349.93,881.386649] #Cloudlab
+# Image_File=[10.23506598,10.43042409,930.90,717.45,931.9280826]#Cloudlab
+# Video_file=[66.44797281,63.6203995,842.80,841.08,880.6041773]#Cloudlab
+
+HTML_file=[0.383830935,0.384821649,750.2335736,389.9425775,933.4433379] #Chameleon
+Image_File=[3.974908609,4.691549467,4600.141875,1404.229404,4304.811209] #Chameleon
+Video_file=[73.4682746,45.03251169,5049.721042,1700.749365,5005.186316] #Chameleon
+
+# HTML_file=[0.56642405,0.434486392,759.37,349.93,881.386649] #intercloud
+# Image_File=[10.23506598,10.43042409,930.90,717.45,931.9280826] #intercloud
+# Video_file=[66.44797281,63.6203995,842.80,841.08,880.6041773] #intercloud
+
 # SDarrayTree2=[6,7,6,12,7,8]
 # random1arrayTree1=[11,12,13,14,10,13]
 # random1arrayTree2=[5,7,6,10,3,4]
@@ -61,5 +70,7 @@ plt.xticks([r + barWidth for r in range(len(HTML_file))], ["curl","wget","Min En
 plt.legend(loc='upper left',prop={'size': 16},bbox_to_anchor=(0.0, 1),
           ncol=1,fancybox=True, shadow=True)
 
-# fig.savefig('cloudLab_throughput.png',dpi=fig.dpi)
+# fig.savefig('figures/cloudLab_throughput.png',dpi=fig.dpi)
+fig.savefig('figures/chameleon_throughput.png',dpi=fig.dpi)
+# fig.savefig('figures/intercloud_throughput.png',dpi=fig.dpi)
 plt.show()
